@@ -12,4 +12,4 @@ USAGE
 * Add program to a folder on your path `ln -s PATH/TO/YOUR/CLONE_FOLDER/backup.sh PATH_FOLDER/create_virtual_host`
 * Program needs to be run as root (sudo)
 * From anywhere, run `sudo create_virtual_host myawesomesite`
-* Visit http://myawesomesite in you browser flavor to view your awesome site
+* Visit http://myawesomesite in your favourite browser to view your awesome site
