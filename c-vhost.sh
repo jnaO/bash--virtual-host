@@ -9,7 +9,7 @@ if [ "$#" -gt 1 ]
 fi
 
 vhost="<VirtualHost *:80>
-    ServerAdmin jnao@jnao.me
+    ServerAdmin example@example.com
     DocumentRoot \"${path}\"
     ServerName ${1}
     ErrorLog \"${path}/error.log\"
