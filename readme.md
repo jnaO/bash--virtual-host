@@ -12,5 +12,5 @@ USAGE
 * Add program to a folder on your path `ln -s PATH/TO/YOUR/CLONE_FOLDER/backup.sh PATH_FOLDER/create_virtual_host`
 * in `/etc/apache2/httpd.conf`, uncomment the line `Include /private/etc/apache2/extra/httpd-vhosts.conf` (close to the end of the file)
 * Program needs to be run as root (sudo)
-* From anywhere, run `sudo create_virtual_host myawesomesite`
+* From root of project, run `sudo create_virtual_host myawesomesite`
 * Visit http://myawesomesite in your favourite browser to view your awesome site
