@@ -25,3 +25,7 @@ The second is optional and is the path to where you would like to point your vir
 `sudo create_virtual_host myawesomesite ../rootfolder`
 
 Visit http://myawesomesite in your favourite browser to view your awesome site
+
+To view current list of virtual hosts pass in the flag `-l` (`sudo` not needed)
+
+`create_virtual_host -l`
