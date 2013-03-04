@@ -95,8 +95,8 @@ then
     ServerAdmin jnao@jnao.me
     DocumentRoot \"${WEBROOT}\"
     ServerName ${1}
-    ErrorLog \"${WEBROOT}/error.log\"
-    CustomLog \"${WEBROOT}/access.log\" common
+    ErrorLog \"/Users/jlofberg/Sites/localhost_logs/${1}_error.log\"
+    CustomLog \"/Users/jlofberg/Sites/localhost_logs/${1}_access.log\" common
 </VirtualHost>
 "
   HOSTS_ENTRY='127.0.0.1 '$1
